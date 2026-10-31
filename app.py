@@ -486,3 +486,9 @@ with tab_alimentar:
             pred["ac_corte"] = n_ac
             st.success("Líneas de Valor Ganado y Costo Real actualizadas.")
             st.rerun()
+# Historias iniciales del Sprint Backlog
+st.session_state.historias = [
+    {"id": "H21", "epica": "E1 Registro", "titulo": "Como residente quiero registrar...", "puntos": 5, "estado": "Hecho", "responsable": "Laura"},
+    {"id": "H24", "epica": "E3 Seguimiento", "titulo": "Como inspector quiero asignar...", "puntos": 5, "estado": "En curso", "responsable": "Andrés"},
+    ...
+]
