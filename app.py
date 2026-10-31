@@ -508,3 +508,70 @@ st.session_state.historias = [
     "estado": "En curso",
     "responsable": "Andrés",  # <--- AQUÍ CAMBIAS EL NOMBRE
 },
+# BUSCA ESTE BLOQUE EN app.py:
+st.session_state.historias = [
+    {
+        "id": "H21",
+        "epica": "E1 Registro",
+        "titulo": "Como residente quiero registrar una no conformidad...",
+        "puntos": 5,
+        "estado": "Hecho",
+        "responsable": "Laura · Mar",  # <--- CAMBIA "Laura · Mar" POR EL NOMBRE QUE QUIERAS
+    },
+    {
+        "id": "H22",
+        "epica": "E1 Registro",
+        "titulo": "Como residente quiero marcar la ubicación en el plano...",
+        "puntos": 5,
+        "estado": "Hecho",
+        "responsable": "Miguel · Mié",  # <--- CAMBIA "Miguel · Mié" POR EL NOMBRE QUE QUIERAS
+    },
+    {
+        "id": "H23",
+        "epica": "E2 Offline",
+        "titulo": "Como residente quiero trabajar sin conexión...",
+        "puntos": 5,
+        "estado": "En revisión",
+        "responsable": "Jessica",  # <--- CAMBIA "Jessica" POR EL NOMBRE QUE QUIERAS
+    },
+    {
+        "id": "H24",
+        "epica": "E3 Seguimiento",
+        "titulo": "Como inspector quiero asignar la no conformidad...",
+        "puntos": 5,
+        "estado": "En curso",
+        "responsable": "Andrés",  # <--- CAMBIA "Andrés" POR EL NOMBRE QUE QUIERAS
+    },
+    {
+        "id": "H25",
+        "epica": "E3 Seguimiento",
+        "titulo": "Como director de obra quiero recibir un correo...",
+        "puntos": 3,
+        "estado": "En curso",
+        "responsable": "Laura",  # <--- CAMBIA "Laura" POR EL NOMBRE QUE QUIERAS
+    },
+    {
+        "id": "H26",
+        "epica": "E3 Seguimiento",
+        "titulo": "Como inspector quiero cerrar un hallazgo con foto...",
+        "puntos": 3,
+        "estado": "En curso",
+        "responsable": "Miguel",  # <--- CAMBIA "Miguel" POR EL NOMBRE QUE QUIERAS
+    },
+    {
+        "id": "H27",
+        "epica": "E4 Reportes",
+        "titulo": "Como director quiero ver un tablero con hallazgos...",
+        "puntos": 2,
+        "estado": "Por hacer",
+        "responsable": "Jessica",  # <--- CAMBIA "Jessica" POR EL NOMBRE QUE QUIERAS
+    },
+    {
+        "id": "H28",
+        "epica": "E5 Administración",
+        "titulo": "Como administrador quiero crear usuarios y roles...",
+        "puntos": 2,
+        "estado": "Por hacer",
+        "responsable": "Andrés",  # <--- CAMBIA "Andrés" POR EL NOMBRE QUE QUIERAS
+    },
+]
