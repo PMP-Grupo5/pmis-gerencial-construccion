@@ -492,3 +492,19 @@ st.session_state.historias = [
     {"id": "H24", "epica": "E3 Seguimiento", "titulo": "Como inspector quiero asignar...", "puntos": 5, "estado": "En curso", "responsable": "Andrés"},
     ...
 ]
+{
+    "id": "H21",
+    "epica": "E1 Registro",
+    "titulo": "Como residente quiero registrar una no conformidad con foto para documentarla en el sitio",
+    "puntos": 5,
+    "estado": "Hecho",
+    "responsable": "Laura · Mar",  # <--- AQUÍ CAMBIAS EL NOMBRE
+},
+{
+    "id": "H24",
+    "epica": "E3 Seguimiento",
+    "titulo": "Como inspector quiero asignar la no conformidad a un contratista para que la corrija",
+    "puntos": 5,
+    "estado": "En curso",
+    "responsable": "Andrés",  # <--- AQUÍ CAMBIAS EL NOMBRE
+},
