@@ -513,65 +513,65 @@ st.session_state.historias = [
     {
         "id": "H21",
         "epica": "E1 Registro",
-        "titulo": "Como residente quiero registrar una no conformidad...",
+        "titulo": "Como residente quiero registrar una no conformidad con foto para documentarla en el sitio",
         "puntos": 5,
         "estado": "Hecho",
-        "responsable": "Laura · Mar",  # <--- CAMBIA "Laura · Mar" POR EL NOMBRE QUE QUIERAS
+        "responsable": "Ana María · Planificación",
     },
     {
         "id": "H22",
         "epica": "E1 Registro",
-        "titulo": "Como residente quiero marcar la ubicación en el plano...",
+        "titulo": "Como residente quiero marcar la ubicación en el plano del piso para localizar el hallazgo",
         "puntos": 5,
         "estado": "Hecho",
-        "responsable": "Miguel · Mié",  # <--- CAMBIA "Miguel · Mié" POR EL NOMBRE QUE QUIERAS
+        "responsable": "Ana María · Planificación",
     },
     {
         "id": "H23",
         "epica": "E2 Offline",
-        "titulo": "Como residente quiero trabajar sin conexión...",
+        "titulo": "Como residente quiero trabajar sin conexión para no perder datos en el sótano",
         "puntos": 5,
         "estado": "En revisión",
-        "responsable": "Jessica",  # <--- CAMBIA "Jessica" POR EL NOMBRE QUE QUIERAS
+        "responsable": "Michael · Cierre",
     },
     {
         "id": "H24",
         "epica": "E3 Seguimiento",
-        "titulo": "Como inspector quiero asignar la no conformidad...",
+        "titulo": "Como inspector quiero asignar la no conformidad a un contratista para que la corrija",
         "puntos": 5,
         "estado": "En curso",
-        "responsable": "Andrés",  # <--- CAMBIA "Andrés" POR EL NOMBRE QUE QUIERAS
+        "responsable": "Brayan Nicolás · Ejecución",
     },
     {
         "id": "H25",
         "epica": "E3 Seguimiento",
-        "titulo": "Como director de obra quiero recibir un correo...",
+        "titulo": "Como director de obra quiero recibir un correo cuando se cierre un hallazgo crítico",
         "puntos": 3,
         "estado": "En curso",
-        "responsable": "Laura",  # <--- CAMBIA "Laura" POR EL NOMBRE QUE QUIERAS
+        "responsable": "Fernando · Inicio",
     },
     {
         "id": "H26",
         "epica": "E3 Seguimiento",
-        "titulo": "Como inspector quiero cerrar un hallazgo con foto...",
+        "titulo": "Como inspector quiero cerrar un hallazgo con foto de evidencia para liberar el área",
         "puntos": 3,
         "estado": "En curso",
-        "responsable": "Miguel",  # <--- CAMBIA "Miguel" POR EL NOMBRE QUE QUIERAS
+        "responsable": "Brayan Nicolás · Ejecución",
     },
     {
         "id": "H27",
         "epica": "E4 Reportes",
-        "titulo": "Como director quiero ver un tablero con hallazgos...",
+        "titulo": "Como director quiero ver un tablero con hallazgos abiertos por contratista",
         "puntos": 2,
         "estado": "Por hacer",
-        "responsable": "Jessica",  # <--- CAMBIA "Jessica" POR EL NOMBRE QUE QUIERAS
+        "responsable": "Yeison Ramón · Sustentación",
     },
     {
         "id": "H28",
         "epica": "E5 Administración",
-        "titulo": "Como administrador quiero crear usuarios y roles...",
+        "titulo": "Como administrador quiero crear usuarios y roles para controlar el acceso",
         "puntos": 2,
         "estado": "Por hacer",
-        "responsable": "Andrés",  # <--- CAMBIA "Andrés" POR EL NOMBRE QUE QUIERAS
+        "responsable": "Astrid Tatiana · Cambio",
     },
 ]
